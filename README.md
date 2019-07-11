@@ -13,7 +13,7 @@ Framework for Querying Lucene Index of Wikipedia Infoboxes
 [API Javadocs](https://guardiaum.github.io/InfoboxIndexSearch/index.html)
 
 ### Download Indexes
-[Direct Link]()
+[Direct Link](https://cin.ufpe.br/~jms5/infobox-ext-index.zip)
 
 ### Notes
 * Unzip the indexes after download;
