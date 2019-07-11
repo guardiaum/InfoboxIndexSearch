@@ -92,7 +92,7 @@ public class QueryData {
             
         }
 		
-		System.out.println(">>> foundEntitys: " + EntitysTitle.size());
+		System.out.println(">>> foundEntities: " + EntitysTitle.size());
 		
 		return EntitysTitle;
 	}

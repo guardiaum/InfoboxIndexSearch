@@ -6,20 +6,20 @@ package com.infobox.beans;
  */
 public class Entity {
 	
-	private String articleTitle;
+	private String entityTitle;
 	private InfoboxSchema infobox;
 
 	public Entity() {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public Entity(String articleTitle) {
-		this.articleTitle = articleTitle;
+	public Entity(String entityTitle) {
+		this.entityTitle = entityTitle;
 	}
 	
-	public Entity(String articleTitle, InfoboxSchema infobox) {
+	public Entity(String entityTitle, InfoboxSchema infobox) {
 		super();
-		this.articleTitle = articleTitle;
+		this.entityTitle = entityTitle;
 		this.infobox = infobox;
 	}
 
@@ -31,12 +31,12 @@ public class Entity {
 		this.infobox = infobox;
 	}
 
-	public String getArticleTitle() {
-		return articleTitle;
+	public String getEntityTitle() {
+		return entityTitle;
 	}
 
-	public void setArticleTitle(String article_title) {
-		this.articleTitle = article_title;
+	public void setEntityTitle(String entityTitle) {
+		this.entityTitle = entityTitle;
 	}
 	
 	@Override
@@ -44,7 +44,7 @@ public class Entity {
 		boolean same = false;
 		
 		if( obj!=null && obj instanceof Entity){
-			same = this.articleTitle.equals(((Entity) obj).getArticleTitle());
+			same = this.entityTitle.equals(((Entity) obj).getEntityTitle());
 		}
 		
 		return same;
