@@ -155,7 +155,7 @@ public class QueryData {
 	 * @throws Exception
 	 * @throws IOException
 	 */
-	public List<Entity> queryEntitysUsingTemplate(String templateName) throws Exception, IOException {
+	public List<Entity> queryEntitiesUsingTemplate(String templateName) throws Exception, IOException {
 		List<Entity> entities = new ArrayList<Entity>();
 		
 		TopDocs foundEntities = searcher.searchByObject(templateName, indexTemplateSearcher);
