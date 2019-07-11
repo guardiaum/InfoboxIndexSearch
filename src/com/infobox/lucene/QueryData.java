@@ -279,7 +279,7 @@ public class QueryData {
 	 * @return a list of entities using that property
 	 * @throws Exception 
 	 */
-	public List<Entity> queryEntitysUsingProperty(String templateName, String propertyName) throws Exception {
+	public List<Entity> queryEntitiesUsingProperty(String templateName, String propertyName) throws Exception {
 		List<Entity> entities = new ArrayList<Entity>();
 		
 		TopDocs foundEntitiesUsingTemplate = searcher.searchByObject(templateName, indexTemplateSearcher);
